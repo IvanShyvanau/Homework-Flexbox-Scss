@@ -1,0 +1,81 @@
+.container {
+  background-color: #9FDEDF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.box {
+  height: 160px;
+  background-color: #C3BF4B;
+  margin-bottom: 20px;
+  font-size: 90px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.first__box {
+  -ms-flex-preferred-size: 31%;
+      flex-basis: 31%;
+}
+
+.second__box {
+  -ms-flex-preferred-size: 67%;
+      flex-basis: 67%;
+}
+
+.thirth__box {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+.fourth__box {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+.fiveth__box {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+.sixth__box {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+.seveth__box {
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+}
+
+.eigth__box {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  height: 350px;
+}
+
+.nineth__box {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: 350px;
+}
+
+.tenth__box {
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  height: 350px;
+}
+/*# sourceMappingURL=style.css.map */

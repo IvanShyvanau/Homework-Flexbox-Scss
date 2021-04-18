@@ -1,0 +1,46 @@
+@mixin column ($Width) {
+  background-color: #9FDEDF;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+@mixin boxes ($Width) {
+  height: 160px;
+  background-color: #C3BF4B;
+  margin-bottom: 20px;
+  font-size: 90px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+@mixin first-box {
+  flex-basis: 31%;
+}
+
+@mixin second-box{
+  flex-basis: 67%;
+}
+
+@mixin several {
+  flex-basis: 15%; 
+}
+@mixin seveth-box{
+  flex-basis: 32%; 
+}
+
+@mixin eigth-box{
+  flex-basis: 30%;
+  height: 350px;
+}
+
+@mixin nineth-box{
+  flex-basis: 50%;
+  height: 350px;
+}
+@mixin tenth-box{
+  flex-basis: 16%;
+  height: 350px;
+}

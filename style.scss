@@ -1,0 +1,45 @@
+@import "mixin.scss";
+
+
+.container{
+  @include column ($Width:1197px)
+}
+
+.box{
+  @include boxes ($Width:30%)
+}
+
+.first__box{
+  @include first-box
+}
+
+.second__box{
+  @include second-box
+}
+
+.thirth__box{
+  @include several
+}
+.fourth__box{
+  @include several
+}
+.fiveth__box{
+  @include several
+}
+.sixth__box{
+  @include several
+}
+.seveth__box{
+  @include seveth-box
+}
+
+.eigth__box{
+  @include eigth-box
+}
+
+.nineth__box{
+  @include nineth-box
+}
+.tenth__box{
+  @include tenth-box
+}
